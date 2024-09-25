@@ -24,6 +24,7 @@ public final class CampfireHealing extends JavaPlugin implements Listener {
     public void onEnable() {
         getLogger().info("CampfireHealing has been enabled!");
         Bukkit.getPluginManager().registerEvents(this, this);
+        startHealingTask();
     }
 
     @Override
