@@ -1,0 +1,4 @@
+name: CampfireHealing
+version: '1.0-SNAPSHOT'
+main: club.cyclesn.campfireHealing.CampfireHealing
+api-version: '1.21'
